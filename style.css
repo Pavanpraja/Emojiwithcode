@@ -1,56 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Lobster&family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300;400&family=Ubuntu:wght@500&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: 'Roboto', sans-serif;
 }
-.epage{
+
+.epage {
     height: 49rem;
     background: gainsboro;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.innpage{
+
+.innpage {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
+
 h1 {
     font-size: 2.4rem;
     text-shadow: 0rem 0.1rem 0.2rem;
 }
-h2{
+
+h2 {
     font-size: 1.4rem;
     text-shadow: 0rem 0.1rem 0.1rem;
     letter-spacing: .07rem;
     font-weight: 500;
 }
-.fcon{
+
+.fcon {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-.einfo{
+
+.einfo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.4rem;
 }
-.scon{
+
+.scon {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
-.tcon{
+
+.tcon {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
-.innpage{
+
+.innpage {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -58,19 +69,22 @@ h2{
     box-shadow: 0rem 0rem 1rem 0rem gray;
     border-radius: 1rem;
 }
-.epage{
+
+.epage {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 6rem;
 }
-p{
+
+p {
     font-size: 1.3rem;
     text-align: center;
     text-shadow: 0.2rem 0.1rem 0.2rem #000000ba;
     opacity: 0.7;
     font-weight: 500;
 }
+
 button {
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -82,22 +96,62 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+
 @media (max-width:414px) {
-    .epage{
+    .epage {
         height: 58rem;
     }
-    .innpage{
+
+    .innpage {
         width: 22rem;
         overflow: auto;
     }
 }
-@media (max-width:912px) and (min-width:767px){
-    .epage{
-        height: 86rem;
+
+@media (max-width:913px) and (min-width:767px) {
+    .epage {
+        height: 74rem;
+        background: 0;
     }
 }
+
+@media (max-width:766px) and (min-width:687px) {
+    .epage {
+        height: 53rem;
+    }
+}
+
+@media (max-width:686px) and (min-width:514px) {
+    html {
+        font-size: 16px;
+    }
+
+    .epage {
+        height: 58rem;
+        background: 0;
+    }
+
+    .innpage {
+        width: 30rem;
+    }
+}
+
 @media (max-width:515px) and (min-width:415px) {
-    html{
+    html {
         font-size: 10px;
+    }
+
+    .epage {
+        height: 85rem;
+    }
+}
+@media (min-width:1200px) {
+    .epage{
+        background: 0;
+    }
+}
+@media (min-width:913px) and (max-width:1200px) {
+    .epage{
+        background: 0;
     }
 }
