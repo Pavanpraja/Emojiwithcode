@@ -96,3 +96,8 @@ button {
         height: 86rem;
     }
 }
+@media (max-width:515px) and (min-width:415px) {
+    html{
+        font-size: 10px;
+    }
+}
